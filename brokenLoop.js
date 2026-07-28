@@ -19,6 +19,7 @@ Expected Output : 5
 // console.log(countUpTo(5)); // Expected: 5 (currently freezes/never finishes)
 
 // Fixed Bug
+// Bug: this loop never ends — find the missing piece
 function countUpTo(n) {
   let count = 0;
   // there was missing incremental condition

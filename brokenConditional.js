@@ -20,6 +20,7 @@ for a score of exactly 50. */
 // console.log(checkScore(40)); // Expected: "Fail"
 
 // Fixed Bug
+// Bug: find why score = 50 doesn't return "Pass"
 function checkScore(score) {
   // there was missing equality,
   if (score >= 50) {

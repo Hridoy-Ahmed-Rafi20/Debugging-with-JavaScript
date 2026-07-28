@@ -2,7 +2,6 @@
 Below are three small broken snippets. For each, identify the error type (Syntax / Runtime / Logic), 
 then fix it. */
 
-
 /* Bug-1 */
 // function sayHi(name) {
 // console.log("Hi, " + name  // find the bug
@@ -14,10 +13,10 @@ then fix it. */
 
 // fixed Bug-1
 function sayHi(name) {
-  console.log("Hi, " + name); // find the bug
+  return "Hi, " + name; // there was missing a ) brackets and it was just console.log,not returning something
+  //  which i have returned
 }
-sayHi("Mira");
-
+console.log(sayHi("Mira"));
 
 /* Bug-2 */
 // let word = "hello";
@@ -28,7 +27,17 @@ sayHi("Mira");
 
 // fixed Bug-2
 let word = "hello";
-console.log(word.toUpperCase()); // find the bug
+console.log(word.toUpperCase()); // there was missing uppercase C in toUpperCase() method
 
 // Input :word.toUppercase()
 // Expected Output : HELLO
+
+/* Bug-3 */
+function square(num) {
+  return num + num; // find the bug
+}
+
+console.log(square(4)); // should be 16
+
+// Input : square(4)
+// Expected Output : 16

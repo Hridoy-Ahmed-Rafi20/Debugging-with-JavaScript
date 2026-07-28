@@ -5,3 +5,26 @@ This function should return the count of numbers from 1 to n. Right now it never
 Input : 5
 Expected Output : 5
  */
+
+/* Bug */
+// Bug: this loop never ends — find the missing piece
+
+// function countUpTo(n) {
+//   let count = 0;
+//   for (let i = 1; i <= n;) { // something is missing here
+//     count = count + 1;
+//   }
+//   return count;
+// }
+// console.log(countUpTo(5)); // Expected: 5 (currently freezes/never finishes)
+
+// Fixed Bug
+function countUpTo(n) {
+  let count = 0;
+  // there was missing incremental condition
+  for (let i = 1; i <= n; i++) {
+    count = count + 1;
+  }
+  return count;
+}
+console.log(countUpTo(5)); // Expected: 5 (currently freezes/never finishes)

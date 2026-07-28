@@ -22,7 +22,7 @@ Expected Output : 5
 // Bug: this loop never ends — find the missing piece
 function countUpTo(n) {
   let count = 0;
-  // there was missing incremental condition
+  // here was missing incremental condition
   for (let i = 1; i <= n; i++) {
     count = count + 1;
   }

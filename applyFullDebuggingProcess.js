@@ -24,11 +24,10 @@ Expected Output : 3
 // Fixed Bug
 // Apply the full debugging process to find this bug
 function countVowels(str) {
-  // here is no any bugs, code running correctly, code not crashing, giving correct answer
   let vowels = "aeiou";
   let count = 0;
-  for (let i = 0; i <= str.length; i++) {
-    // find the bug
+  for (let i = 0; i <= str.length - 1; i++) {
+    // here was a length issue, length should be -1 from original length
     if (vowels.includes(str[i])) {
       count = count + 1;
     }

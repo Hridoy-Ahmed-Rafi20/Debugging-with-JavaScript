@@ -15,6 +15,6 @@ Expected Output 10
 // Fixed Bug
 // Bug: find why this doesn't return the first element
 function getFirstElement(arr) {
-  return arr[0]; // there was getting index 1 item
+  return arr[0]; // here was getting index 1 item
 }
 console.log(getFirstElement([10, 20, 30])); // Expected: 10 (currently returns 20)

@@ -16,6 +16,6 @@ Expected Output : 7
 // Fixed Bug
 // Bug: find why the result comes out negative
 function subtract(a, b) {
-  return a - b; // there was b-a, that should a-b
+  return a - b; // here was b-a, that should a-b
 }
 console.log(subtract(10, 3)); // Expected: 7 (currently returns -7)

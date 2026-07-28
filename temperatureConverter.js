@@ -4,9 +4,8 @@ Input :0
 Expected Output :31 
 */
 
-// Buggy Code: 
-function celsiusToFahrenheit(celsius) { 
-  return celsius * 9 / 5 + 3; // find the bug 
-} 
-  
+// Buggy Code:
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9) / 5 + 32; // here was addion of 2 instead of 32
+}
 console.log(celsiusToFahrenheit(0)); // Expected: 32

@@ -29,15 +29,17 @@ console.log(sayHi("Mira"));
 let word = "hello";
 console.log(word.toUpperCase()); // there was missing uppercase C in toUpperCase() method
 
-// Input :word.toUppercase()
-// Expected Output : HELLO
-
 /* Bug-3 */
-function square(num) {
-  return num + num; // find the bug
-}
-
-console.log(square(4)); // should be 16
+// function square(num) {
+//   return num + num; // find the bug
+// }
+// console.log(square(4)); // should be 16
 
 // Input : square(4)
 // Expected Output : 16
+
+// fixed Bug-3
+function square(num) {
+  return num * num; // here was adding two number requirement wanted square. I have fixed but from additon: + to multiply: *
+}
+console.log(square(4)); // should be 16

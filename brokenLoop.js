@@ -6,7 +6,7 @@ Input : 5
 Expected Output : 5
  */
 
-/* Bug */
+/* Buggy code */
 // Bug: this loop never ends — find the missing piece
 
 // function countUpTo(n) {

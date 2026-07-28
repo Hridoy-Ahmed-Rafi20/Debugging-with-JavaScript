@@ -6,7 +6,7 @@ Input : 10, 3
 Expected Output : 7 
 */
 
-/* Bug */
+/* Buggy code */
 // Bug: find why the result comes out negative
 // function subtract(a, b) {
 //   return b - a; // find the bug

@@ -7,7 +7,7 @@ Input : "" "hi"
 Expected Output : true  false 
 */
 
-/* Bug */
+/* Buggy code */
 // Bug: explain this line out loud — what does str.length actually equal for ""?
 // function isEmpty(str) {
 //   if ((str.length = 0)) {

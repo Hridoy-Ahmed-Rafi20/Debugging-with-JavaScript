@@ -6,7 +6,7 @@ Input : "orange"
 Expected Output : 3
  */
 
-/* Bug */
+/* Buggy code */
 // Apply the full debugging process to find this bug
 // function countVowels(str) {
 //   let vowels = "aeiou";

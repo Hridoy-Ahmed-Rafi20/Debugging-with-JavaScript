@@ -5,7 +5,7 @@ Input : [10, 20, 30]
 Expected Output 10
  */
 
-/* Bug */
+/* Buggy code */
 // Bug: find why this doesn't return the first element
 // function getFirstElement(arr) {
 //   return arr[1]; // find the bug

@@ -6,7 +6,7 @@ for a score of exactly 50. */
 // Input : 50 40
 // Expected Output : "Pass" "Fail"
 
-/* Bug */
+/* Buggy code */
 // Bug: find why score = 50 doesn't return "Pass"
 
 // function checkScore(score) {

@@ -21,6 +21,7 @@ for a score of exactly 50. */
 
 // Fixed Bug
 function checkScore(score) {
+  // there was missing equality,
   if (score >= 50) {
     return "Pass";
   } else {

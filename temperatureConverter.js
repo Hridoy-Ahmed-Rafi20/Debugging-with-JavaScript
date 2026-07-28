@@ -5,6 +5,12 @@ Expected Output :31
 */
 
 // Buggy Code:
+// function celsiusToFahrenheit(celsius) {
+//   return (celsius * 9) / 5 + 2; // find the bug
+// }
+// console.log(celsiusToFahrenheit(0)); // Expected: 32
+
+// Fixed Bug:
 function celsiusToFahrenheit(celsius) {
   return (celsius * 9) / 5 + 32; // here was addion of 2 instead of 32
 }
